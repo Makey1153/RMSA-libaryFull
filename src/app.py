@@ -1,5 +1,8 @@
 # src/app.py
 def login(username, password):
-    if username == "admin" and password == "secure_pw": # เปลี่ยน
+    """Basic login function"""
+    print("yooho")
+    if username == "admin" and password == "secure_pw":
         return "Login Success"
     return "Login Failed"
+
